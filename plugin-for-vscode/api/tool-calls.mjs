@@ -244,7 +244,7 @@ export function formatCompactTools(tools) {
       };
     })
     .filter(Boolean);
-  return JSON.stringify(cleaned, null, 2);
+  return JSON.stringify(cleaned);
 }
 
 function cleanJsonSchema(schema) {
